@@ -17,6 +17,9 @@ class TwoSizesVc: BaseVc {
         titleLbl("TwoSizesVc", color: UIColor.white)
         setLeftBtn("返回", image: "navi_arrow_right", action: #selector(popVc))
         initLbl()
+        
+        
+        view.backgroundColor = UIColor(hex: 0x333333)
     }
     
     func initLbl() {

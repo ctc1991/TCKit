@@ -20,7 +20,6 @@
 		180705761F580D51003DB75D /* UIViewController+Switch.m in Sources */ = {isa = PBXBuildFile; fileRef = 180705641F580D51003DB75D /* UIViewController+Switch.m */; };
 		180705771F580D51003DB75D /* BMPasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180705681F580D51003DB75D /* BMPasswordInputView.m */; };
 		180705781F580D51003DB75D /* BMPasswordInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180705691F580D51003DB75D /* BMPasswordInputView.xib */; };
-		180705791F580D51003DB75D /* TCKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 1807056B1F580D51003DB75D /* TCKit.podspec */; };
 		183DDF3F1F4D24DB0079CABE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183DDF391F4D24DB0079CABE /* AppDelegate.swift */; };
 		183DDF401F4D24DB0079CABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183DDF3A1F4D24DB0079CABE /* Assets.xcassets */; };
 		183DDF411F4D24DB0079CABE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 183DDF3B1F4D24DB0079CABE /* Info.plist */; };
@@ -60,7 +59,6 @@
 		180705681F580D51003DB75D /* BMPasswordInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMPasswordInputView.m; sourceTree = "<group>"; };
 		180705691F580D51003DB75D /* BMPasswordInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMPasswordInputView.xib; sourceTree = "<group>"; };
 		1807056A1F580D51003DB75D /* TCKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCKit.h; sourceTree = "<group>"; };
-		1807056B1F580D51003DB75D /* TCKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TCKit.podspec; sourceTree = "<group>"; };
 		183DDF231F4D22F90079CABE /* TCKit_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCKit_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		183DDF391F4D24DB0079CABE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		183DDF3A1F4D24DB0079CABE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -92,7 +90,6 @@
 				180705421F580D51003DB75D /* TCCategories */,
 				180705651F580D51003DB75D /* TCCustom */,
 				1807056A1F580D51003DB75D /* TCKit.h */,
-				1807056B1F580D51003DB75D /* TCKit.podspec */,
 			);
 			name = TCKit;
 			path = ../TCKit;
@@ -358,7 +355,6 @@
 				183DDF411F4D24DB0079CABE /* Info.plist in Resources */,
 				180705781F580D51003DB75D /* BMPasswordInputView.xib in Resources */,
 				183DDF401F4D24DB0079CABE /* Assets.xcassets in Resources */,
-				180705791F580D51003DB75D /* TCKit.podspec in Resources */,
 				183DDF431F4D24DB0079CABE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

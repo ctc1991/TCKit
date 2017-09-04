@@ -99,8 +99,9 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.subspec 'TCCategories' do |ss|
-
+    ss.source_files = 'TCKit/TCCategories'
     ss.subspec 'Foundation' do |sss|
+      sss.source_files = 'TCKit/TCCategories/Foundation'
       sss.subspec 'NSString' do |ssss|
         ssss.source_files = 'TCKit/TCCategories/Foundation/NSString/*'
       end
